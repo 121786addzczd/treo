@@ -20,7 +20,7 @@ class ListsController < ApplicationController
 
   def update
     if @list.update(list_params)
-      redirect_to :rrot
+      redirect_to :root
     else
       render action: :edit
     end
