@@ -7,13 +7,32 @@ ToDoリストツール「Trello」」を参考に作成しております。
 Webアプリケーションの基礎（登録、更新、削除）を学ぶ目的と、作った後も実用的にに使えるアプリはタスク管理ツールと思い作成に至りました。
 
 
-## 開発環境
-Ruby 2.6.5
+# URL
 
-Rails 6.0.0
+[https://treo-31021.herokuapp.com/](https://treo-31021.herokuapp.com/)
 
-## ER図
-![](https://i.gyazo.com/08e93dbf95c7be4a1566aa0caab652bf.png)
+```HTML
+テストユーザーアカウント
+
+メールアドレス：qwer@qwer.com
+パスワード：qwer1234
+```
+
+
+# 開発環境
+
+- Ruby 2.6.5
+- Rails 6.0.0
+
+# ER図
+![treo ER図](https://i.gyazo.com/08e93dbf95c7be4a1566aa0caab652bf.png)
+
+# 各種機能＆導入技術
+
+- プラットフォーム（Heroku）
+- データベース（MySQL）
+- CSSフレームワーク（Bootstrap4）
+- ユーザー登録＆ログイン（devise)
 
 ## トップページ
 ![](https://i.gyazo.com/23c32fb6afe017fd079d8046f4902a75.png)
